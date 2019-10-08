@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AndroidAssignments</string>
+    <string name="i_am_a_button">I\'m a button</string>
+    <string name="hello_world">Hello World</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="loginName">Login Name</string>
+    <string name="what_does_this_do">What does it do?</string>
+    <string name="radio_button">Radio Button</string>
+    <string name="checkbox">Checkbox</string>
+    <string name="image_button">Image Button</string>
+    <string name="login_id_is_empty">Login ID id empty</string>
+    <string name="switch_is_on">Switch is on</string>
+    <string name="switch_is_off">Switch is off</string>
+    <string name="do_you_want_to_finish_the_activity">Do you want to finish the activity</string>
+    <string name="alert_dialog">Alert Dialog</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="here_is_my_response">Here is my response</string>
+    <string name="start_chat">Start Chat</string>
+    <string name="start_chat_button_clicked">User clicked start chat</string>
+    <string name="send">Send</string>
+    <string name="enter_message">Enter the message</string>
+    <string name="incoming">Incoming</string>
+    <string name="outgoing">Outgoing</string>
+    <string name="toolbar_activity">Test Toolbar</string>
+    <string name="title_activity_test_toolbar">Test Toolbar</string>
+    <string name="toolbar_action_plus">Toolbar action plus is selected</string>
+    <string name="do_you_want_to_go_back">Do you want to go back</string>
+    <string name="snack_text">Enter the new snack message</string>
+    <string name="the_field_is_empty">The field is empty</string>
+</resources>

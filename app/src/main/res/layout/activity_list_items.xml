@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.gridlayout.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="fill"
+    app:columnCount="2"
+    app:rowCount="2">
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_button"
+        app:layout_gravity="fill"
+        app:layout_columnWeight="1"
+        app:layout_column="0"
+        app:layout_row="0" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox"
+        app:layout_gravity="fill"
+        app:layout_columnWeight="1"
+        app:layout_column="1"
+        app:layout_row="0" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="226dp"
+        android:layout_height="35dp"
+        android:text="@string/what_does_this_do"
+        app:layout_gravity="fill"
+        app:layout_columnWeight="1"
+        app:layout_column="0"
+        app:layout_row="1" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image_button"
+        app:layout_gravity="fill"
+        app:layout_columnWeight="1"
+        app:layout_column="1"
+        app:layout_row="1"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+</androidx.gridlayout.widget.GridLayout>
