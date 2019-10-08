@@ -95,7 +95,7 @@ public class TestToolbar extends AppCompatActivity {
         alertBuilder.setNegativeButton(getResources().getText(R.string.cancel), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Log.d("CANCEL", "Cancel Clicked");
+                Log.d("CANCEL", "Cancel Clicked.");
             }
         });
 
